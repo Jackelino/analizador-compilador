@@ -1,0 +1,6 @@
+
+xyyzm+4523nppp.
+%
+cls
+del %1.anl
+java AnaLexA %1
