@@ -1,6 +1,3 @@
-
-xyyzm+4523nppp.
-%
-cls
-del %1.anl
-java AnaLexA %1
+if(23==num__1){
+print(23)
+}
