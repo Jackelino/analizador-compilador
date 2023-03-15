@@ -66,10 +66,11 @@ public class GloboAL {
                 creaArchivo(xArchivo(salida), lex);
                 creaArchivo(xArchivo(salida), Integer.toString(renglon));
             }
-
+            /*
             System.out.println("Este es el token hallado r(" + miToken + ")");
             System.out.println("Este es el lexema hallado {" + lex + "}");
             System.out.println("Renglon (" + renglon + ")");
+            */
             //pausa();
             a_i = a_a;
         }while (!fin_archivo);

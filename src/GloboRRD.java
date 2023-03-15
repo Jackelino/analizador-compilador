@@ -24,13 +24,6 @@ public class GloboRRD {
             System.exit(4);
         }
         sig_cab(xArchivo(entrada));
-        System.out.println("cab " + CAB);
-        System.out.println("lex " + LEX);
-        System.out.println("ren " + RENGLON);
-        sig_cab(xArchivo(entrada));
-        System.out.println("cab " + CAB);
-        System.out.println("lex " + LEX);
-        System.out.println("ren " + RENGLON);
         IF();
         if(!CAB.equals("eof")) {
             error();
