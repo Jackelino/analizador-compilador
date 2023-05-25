@@ -3,7 +3,10 @@ import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class GloboRRD {
+/**
+ * Compilador utilizando parser recursivo desendennte
+ */
+public class globoPRD {
     static int Posicion = 0;
     static String CAB = "";
     static String LEX = "";
@@ -63,7 +66,7 @@ public class GloboRRD {
                 E();
                 break;
             case "str":
-                asocia("srt");
+                asocia("str");
                 break;
             default:
                 error();

@@ -1,7 +1,7 @@
 @Echo off
 cls
 del %1.anl 2> null
-java GloboAL %1
+java globoAL %1
 if errorlevel 1 goto Fallo
-java GloboRRD %1
+java globoPRD %1
 :Fallo

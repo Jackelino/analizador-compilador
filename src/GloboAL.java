@@ -1,6 +1,6 @@
 import java.io.*;
 
-public class GloboAL {
+public class globoAL {
     /**
      * Apuntador de avance
      */
@@ -233,7 +233,7 @@ public class GloboAL {
                     c = lee_car();
                     if (c >= 65 && c <= 90) {
                         ESTADO = 10;
-                    } else if (c >= 97 && c <= 112) {
+                    } else if (c >= 97 && c <= 122) {
                         ESTADO = 10;
                     } else {
                         ESTADO = diagrama();
@@ -434,7 +434,7 @@ public class GloboAL {
                 case 34:
                     lex = ob_lex();
                     a_i = a_a;
-                    return ("srt");
+                    return ("str");
             }
         }while(true);
     }
@@ -461,7 +461,6 @@ public class GloboAL {
     public static int lee_car() {
         if (a_a <= filesize - 1) {
             if(c == 10) {
-                System.out.println(c);
                 renglon++;
             }
             return linea[a_a++];
